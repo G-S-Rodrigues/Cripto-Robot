@@ -1,6 +1,3 @@
-Here is the English version of your instructions, formatted in Markdown and ready to copy:
-
----
 
 # Setup and Execution Guide
 
