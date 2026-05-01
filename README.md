@@ -1,17 +1,3 @@
-######################################################################
-
-Desenvolvido por Gabriel Freitas
-
-Siga para conhecer mais o trabalho:
-
--   https://www.youtube.com/@DescolaDev
--   https://instagram.com/gabrielfreitas.dev
-
-######################################################################
-
-# PARA DÚVIDAS E SUGESTÕES, PARTICIPE DO NOSSO DISCORD
-
-    https://discord.gg/PpmB3DwSSX
 
 # 1. Instale as seguintes bibliotecas:
 
