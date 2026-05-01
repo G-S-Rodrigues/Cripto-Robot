@@ -1,47 +1,37 @@
+Here is the English version of your instructions, formatted in Markdown and ready to copy:
 
-# 1. Instale as seguintes bibliotecas:
+---
 
-    Digite no terminal (abra o terminal com ctrl+J):
+# Setup and Execution Guide
 
-    pip install -r requirements.txt
+### 1. Install Dependencies
+Open your terminal (**Ctrl + J**) and run the following command:
+```bash
+pip install -r requirements.txt
+```
 
-# 2. Insira suas chaves da Binance no documento .env
+### 2. Configure API Keys
+Insert your Binance keys into the `.env` file.
+> 🟡 **IMPORTANT:** The keys must be enclosed in double quotes (e.g., `API_KEY="your_key_here"`).
 
-    🟡 IMPORTANTE: Elas devem estar entre aspas duplas
+### 3. Set the VS Code Interpreter
+1. Press **Ctrl + Shift + P**.
+2. Type **"Select Interpreter"** and select it.
+3. Choose the **Python -> "Base" (Conda)** environment.
+> 🟡 **IMPORTANT:** After selecting the interpreter, click the **TRASH CAN** icon in the terminal panel to close the current session, then open a new terminal.
 
-# 3. Ative o interpretador no VsCode. Selecione Python -> Conda/Base
+### 4. Configure the Bot
+All variables and bot settings are managed within the following file:
+`.\src\main.py`
 
-    Ctrl + shift + P
+### 5. Run the Bot
+To start the bot, enter the following command in the terminal:
+```bash
+python -m src.main
+```
 
-    Digitar Interpretador -> Selecionar Interpretador
-
-    Escolher Python -> "Base"
-
-    🟡 IMPORTANTE: Depois de selecionar o interpretador, clique no ícone da LIXEIRA e abra o terminal novamente.
-
-# 4. Configure o bot e suas variáveis
-
-    Toda a configuração é feita no arquivo .\src\main.py
-
-# 5. Código para rodar o bot
-
-    Digite no terminal:
-
-    python -m src.main
-
-# 6. Código para rodar os backtests
-
-    Digite no terminal:
-
-    python -m src.backtests
-
-# 7. Termos de Uso
-
-    Ao usar o código você aceita os termos disponíveis no arquivo LICENSE.
-
-    Além da licença de distribuição, o bot é disponibilizado para uso
-    sob sua total responsabilidade, sem que os desenvolvedores assumam
-    qualquer responsabilidade por perdas financeiras ou outros danos
-    decorrentes de seu uso.
-
-    Opere com responsabilidade. Apenas para maiores de 18 anos.
+### 6. Run Backtests
+To perform backtesting, enter the following command in the terminal:
+```bash
+python -m src.backtests
+```
